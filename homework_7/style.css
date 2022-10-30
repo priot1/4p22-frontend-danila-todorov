@@ -1,0 +1,564 @@
+.main-form__button{
+    background-color: #1A226B;
+    width: 180px;
+    height: 52px;
+    margin-left:210px ;
+    border-radius: 10px;
+    font-size: 24px;
+    line-height: 16px;
+    color: white;
+    margin-top: -20px;
+    font-weight:bold
+}
+@media only screen and (min-width: 1440px) {
+    .main {
+        margin: 0 auto;
+        background-color: #1B2472;
+        width: 1440px;
+        height: 737px;
+
+       padding-top: 82px;
+    }
+    .main-form{
+        background-color: white;
+        width: 600px;
+        height: 412px;
+
+        margin-left: 420px;
+
+        border-radius: 20px;
+    }
+
+    .main  input{
+        width: 510px;
+        height: 49px;
+        margin-left: 45px;
+        border: 2px solid #787878;
+        border-radius: 10px;
+        font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+    }
+    .main  .checkbox{
+        width: 24px;
+        height: 24px;
+        margin-left: 45px;
+        border: 2px solid #787878;
+        border-radius: 7px;
+        margin-bottom: 35px;
+        position: relative;
+        bottom: 25px;
+        left: 0 ;
+    }
+    .main  .checkbox ~ label::before {
+        content: 'Я согласен получать обнновления на почту';
+        text-align: center;
+       position: relative;
+bottom: 32px;
+        left: -43px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #787878;
+        font-weight:bold
+    }
+
+    .main-form__heading{
+        text-align: center;
+        font-size: 50px;
+        line-height: 50px;
+        color: #787878;
+        padding-top: 26px;
+        margin-bottom: 0;
+        font-weight:bold
+    }
+
+
+
+    .main  label{
+
+        margin-left: 53px;
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 0;
+color: #787878;
+        font-weight:bold
+    }
+
+
+    input:first-child {
+        margin-top: -15px;
+        margin-bottom: 35px;
+    }
+    .main-form__input-first::-webkit-input-placeholder {
+        font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+        font-weight:bold
+    }
+    .main-form__input-first::-moz-placeholder          {
+        font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+        font-weight:bold
+
+    }/* Firefox 19+ */
+    .main-form__input-first:-moz-placeholder           {   font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+        font-weight:bold
+    }/* Firefox 18- */
+    .main-form__input-first:-ms-input-placeholder      {   font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+
+    }
+    .main-form__input-second::-webkit-input-placeholder {
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+    }
+    .main-form__input-second::-moz-placeholder          {
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+
+    }/* Firefox 19+ */
+    .main-form__input-second:-moz-placeholder           {   font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+
+    }/* Firefox 18- */
+    .main-form__input-second:-ms-input-placeholder      {   font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+
+    }
+    .main-form__input--small{
+        display: none;
+    }
+    .main-form__input-second {
+
+    }
+    .main-form__password__label{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1439px) and (min-width: 769px) {
+    .main {
+        margin: 0 auto;
+        background-color: #1B2472;
+        width: 100%;
+        height: 737px;
+
+       padding-top: calc((82/1440 *100vw));
+
+    }
+    .main-form{
+        background-color: white;
+        width: 600px;
+        height: 412px;
+
+        margin-left:  calc((100% - 600px)/2);
+
+        border-radius: 20px;
+    }
+
+    .main  input{
+        width: 510px;
+        height: 49px;
+        margin-left: 45px;
+        border: 2px solid #787878;
+        border-radius: 10px;
+        font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+    }
+    .main  .checkbox{
+        width: 24px;
+        height: 24px;
+        margin-left: 45px;
+        border: 2px solid #787878;
+        border-radius: 7px;
+        margin-bottom: 35px;
+        position: relative;
+        bottom: 25px;
+        left: 0 ;
+    }
+    .main  .checkbox ~ label::before {
+        content: 'Я согласен получать обнновления на почту';
+        text-align: center;
+        position: relative;
+        bottom: 32px;
+        left: -43px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #787878;
+        font-weight:bold
+    }
+
+    .main-form__heading{
+        text-align: center;
+        font-size: 50px;
+        line-height: 50px;
+        color: #787878;
+        padding-top: 26px;
+        margin-bottom: 0;
+        font-weight:bold
+    }
+
+
+
+    .main  label{
+
+        margin-left: 53px;
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 0;
+        color: #787878;
+        font-weight:bold
+    }
+
+
+    input:first-child {
+        margin-top: -15px;
+        margin-bottom: 35px;
+    }
+    .main-form__input-first::-webkit-input-placeholder {
+        font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+        font-weight:bold
+    }
+    .main-form__input-first::-moz-placeholder          {
+        font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+        font-weight:bold
+
+    }/* Firefox 19+ */
+    .main-form__input-first:-moz-placeholder           {   font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+        font-weight:bold
+    }/* Firefox 18- */
+    .main-form__input-first:-ms-input-placeholder      {   font-size: 28px;
+        line-height: 36px;
+        color: #787878;
+        padding-left: 15px;
+
+    }
+    .main-form__input-second::-webkit-input-placeholder {
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+    }
+    .main-form__input-second::-moz-placeholder          {
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+
+    }/* Firefox 19+ */
+    .main-form__input-second:-moz-placeholder           {   font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+
+    }/* Firefox 18- */
+    .main-form__input-second:-ms-input-placeholder      {   font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+        font-weight:bold
+
+    }
+    .main-form__input--small{
+        display: none;
+    }
+    .main-form__input-second {
+
+    }
+    .main-form__password__label{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .main {
+        margin: 0 auto;
+        background-color: #1B2472;
+        width: 768px;
+        height: 737px;
+
+    }
+    .main-form{
+        background-color: white;
+        width: 708px;
+        height: 697px;
+        position: relative;
+        top: 20px;
+        left: 20px;
+
+        border-radius: 10px;
+    }
+
+    .main-form__button{
+        background-color: #1A226B;
+        width: 220px;
+        height: 80px;
+        margin-left:210px ;
+        font-size: 32px;
+        line-height: 16px;
+        color: white;
+        margin-top: 40px;
+        border-radius: 10px;
+        font-weight:bold;
+
+    }
+    .main-form__heading{
+        text-align: center;
+        font-size: 60px;
+        line-height: 50px;
+        color: #787878;
+        padding-top: 38px;
+        -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+        margin-bottom: 20px;
+        font-weight:bold
+    }
+    .main  input{
+        width: 608px;
+        height: 49px;
+        margin-left: 45px;
+        border: 2px solid #787878;
+        border-radius: 10px;
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+
+    }
+    .main .checkbox{
+        width: 32px;
+        height: 32px;
+        margin-left: 45px;
+        border: 2px solid #787878;
+        margin-top: 25px;
+
+    }
+    .main label{
+
+        margin-left: 53px;
+        /*font: Roboto; */
+        font-size: 24px;
+        color: #787878;
+        line-height: 16px;
+        font-weight:bold
+    }
+
+    .main-form__label{
+        font-size: 24px;
+        line-height: 16px;
+        color: #787878;
+        font-weight:bold
+    }
+    .main  .checkbox ~ label::before {
+        content: 'Я согласен получать обнновления на почту';
+        text-align: center;
+       position: relative;
+        bottom: 10px;
+        left: -43px;
+        font-size: 18px;
+        line-height: 16px;
+        color: #787878;
+    }
+    input:first-child {
+        margin-top: -15px;
+    }
+
+
+    input::-webkit-input-placeholder {
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+    }
+    input::-moz-placeholder          {
+        font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+
+    }/* Firefox 19+ */
+    input:-moz-placeholder           {   font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+
+    }/* Firefox 18- */
+    input:-ms-input-placeholder      {   font-size: 28px;
+        line-height: 36px;
+        color: #CCCCCC;
+        padding-left: 15px;
+
+    }
+    .main-form__input--small{
+        display: inline-block;
+        margin-top: -15px;
+    }
+    .main-form__input-first{
+        display: none;
+    }
+    .main-form__password__label{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width:767px) {
+    .main {
+        margin: 0 auto;
+        background-color: #1B2472;
+        width: 100vw;
+        height: 100vw;
+        /*position: absolute; */
+
+    }
+    .main-form{
+        background-color: white;
+        width: calc(718/768* 100vw);
+        height: calc(697/737* 100vw);
+
+        position: relative;
+        top:  calc(20/768* 100vw);
+        left:  calc(20/768* 100vw);
+        /* margin-top: 82px;*/
+        /* bottom: 20px;*/
+        border-radius:  calc(10/768* 100vw);
+    }
+
+    .main-form__button{
+        background-color: #1A226B;
+        width:  calc(220/768* 100vw);
+        height: calc(80/768* 100vw);
+        margin-left: calc(210/768* 100vw) ;
+        font-size:  calc(32/768* 100vw);
+        line-height:  calc(16/768* 100vw);
+        color: white;
+        margin-top:  calc(49/768* 100vw);
+        border-radius:  calc(10/768* 100vw);
+        font-weight:bold;
+    }
+    .main-form__heading{
+        text-align: center;
+        font-size:  calc(60/768* 100vw);
+        line-height:  calc(50/768* 100vw);
+        color: #787878;
+        padding-top:  calc(38/768* 100vw);
+        -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+        margin-bottom:  calc(20/768* 100vw);
+        font-weight:bold
+    }
+    .main  input{
+        width:  calc(608/768* 100vw);
+        height:  calc(49/768* 100vw);
+        margin-left:  calc(45/768* 100vw);
+        border: 2px solid #787878;
+        border-radius:  calc(10/768* 100vw);
+        font-size:  calc(28/768* 100vw);
+        line-height:  calc(36/768* 100vw);
+        color: #CCCCCC;
+
+    }
+    .main .checkbox{
+        width:  calc(32/767* 100vw);
+        height:  calc(32/767* 100vw);
+        margin-left:  calc(45/767* 100vw);
+        border: 2px solid #787878;
+        margin-top:  calc(25/768* 100vw);
+
+    }
+    .main label{
+
+        margin-left:  calc(53/768* 100vw);
+        /*font: Roboto; */
+        font-size:  calc(24/768* 100vw);
+        color: #787878;
+        line-height:  calc(16/768* 100vw);
+        font-weight:bold
+    }
+
+    .main-form__label{
+        font-size:  calc(24/768* 100vw);
+        line-height:  calc(16/768* 100vw);
+        color: #787878;
+        font-weight:bold
+    }
+    .main  .checkbox ~ label::before {
+        content: 'Я согласен получать обнновления на почту';
+        text-align: center;
+        position: relative;
+        bottom:  calc(10/768* 100vw);
+        left:  calc(-43/768* 100vw);
+        font-size:  calc(18/768* 100vw);
+        line-height:  calc(16/768* 100vw);
+        color: #787878;
+    }
+    input:first-child {
+        margin-top:  calc(-15/768* 100vw);
+    }
+
+
+    input::-webkit-input-placeholder {
+        font-size:  calc(28/768* 100vw);
+        line-height:  calc(36/768* 100vw);
+        color: #CCCCCC;
+        padding-left:  calc(15/768* 100vw);
+    }
+    input::-moz-placeholder          {
+        font-size:  calc(28/768* 100vw);
+        line-height:  calc(36/768* 100vw);
+        color: #CCCCCC;
+        padding-left:  calc(15/768* 100vw);
+
+    }/* Firefox 19+ */
+    input:-moz-placeholder           {
+        font-size:  calc(28/768* 100vw);
+        line-height:  calc(36/768* 100vw);
+        color: #CCCCCC;
+        padding-left:  calc(15/768* 100vw);
+
+    }/* Firefox 18- */
+    input:-ms-input-placeholder      {
+        font-size:  calc(28/76* 100vw);
+        line-height:  calc(36/768* 100vw);
+        color: #CCCCCC;
+        padding-left:  calc(15/768* 100vw);
+
+    }
+    .main-form__input--small{
+        display: inline-block;
+        margin-top:  calc(-15/768* 100vw);
+    }
+    .main-form__input-first{
+        display: none;
+    }
+    .main-form__password__label{
+        display: inline-block;
+    }
+}
