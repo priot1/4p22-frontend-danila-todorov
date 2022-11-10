@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
-
+@import "https://fonts.fontstorage.com/import/roboto.css";
+    font-family: Roboto;
 }
 
 .main-form__button{
