@@ -7,17 +7,10 @@ function myClick() {
     let sign = document.querySelector('.sign').value;
     let second__number = document.querySelector('.second__number').value;
 
-    if (second__number === '0' && sign === '/') {
-        result = 'Операция не корректна';
-    } else if (first__number === '' || first__number.trim() === '') {
-        /*let error = document.querySelector('.error');
-            error.innerHTML = "Поле перврое число не заполнено" ;*/
-        result = 'Первое число не указано';
-    } else if (second__number === '' || second__number.trim() === '') {
-        /*let error = document.querySelector('.error');
-            error.innerHTML = "Поле перврое число не заполнено" ;*/
+    if ( first__number.trim() === '') {
+                            result = 'Первое число не указано';
+    } else if (second__number.trim() === '') {
         result = 'Второе число не указано';
-
     } else if (isNaN(first__number) || isNaN(second__number)) {
 
         result = "неправильное число";
@@ -38,7 +31,11 @@ function myClick() {
                 result = Number(first__number) * Number(second__number);
                 break;
             case '/' :
-                result = Number(first__number) / Number(second__number);
+                if(Number(first__number) / Number(second__number)===Infinity){
+                    result ='Операция не корректна';
+                }else {
+                    result = Number(first__number) / Number(second__number);
+                }
                 break;
             default:
                 result = 'Программа не поддерживает такую операцию';
