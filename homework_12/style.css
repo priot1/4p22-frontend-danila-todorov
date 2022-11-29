@@ -725,9 +725,7 @@ input::placeholder      {   font-size: 28px;
         color: #787878;
         padding-left: calc(15/768* 100vw);
     }
-    #main-form__email-hidden{
-        display: none;
-    }
+
 
 
     #main-form__email-hidden::-webkit-input-placeholder {
